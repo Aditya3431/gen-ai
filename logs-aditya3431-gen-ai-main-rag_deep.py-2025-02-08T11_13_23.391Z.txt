@@ -1,0 +1,137 @@
+
+[     UTC     ] Logs for gen-ai-2bzpuzvf63psqc5a4fr4wt.streamlit.app/
+────────────────────────────────────────────────────────────────────────────────────────
+[11:11:41] 🖥 Provisioning machine...
+[11:11:41] 🎛 Preparing system...
+[11:11:41] ⛓ Spinning up manager process...
+[11:11:41] 🚀 Starting up repository: 'gen-ai', branch: 'main', main module: 'rag_deep.py'
+[11:11:41] 🐙 Cloning repository...
+[11:11:41] 🐙 Cloning into '/mount/src/gen-ai'...
+
+[11:11:42] 🐙 Cloned repository!
+[11:11:42] 🐙 Pulling code changes from Github...
+[11:11:42] 📦 Processing dependencies...
+
+──────────────────────────────────────── uv ───────────────────────────────────────────
+
+Using uv pip install.
+Using Python 3.12.8 environment at /home/adminuser/venv
+Resolved 84 packages in 890ms
+Prepared 84 packages in 2.64s
+Installed 84 packages in 176ms
+ + aiohappyeyeballs==2.4.6
+ + aiohttp==3.11.12
+ + aiosignal==1.3.2
+ + altair==5.5.0
+ + annotated-types==[2025-02-08 11:11:46.462757] 0.7.0
+ + anyio==4.8.0
+ + attrs==25.1.0
+ + blinker==1.9.0
+ + cachetools==5.5.1
+ + certifi==2025.1.31
+ + cffi==1.17.1[2025-02-08 11:11:46.462956] 
+ + charset-normalizer==3.4.1
+ + click==8.1.8
+ + cryptography==44.0.0
+ + dataclasses-json==0.6.7
+ + frozenlist==1.5.0[2025-02-08 11:11:46.463146] 
+ + gitdb==4.0.12
+ + gitpython==3.1.44
+ + greenlet==3.1.1
+ + h11==0.14.0
+ + httpcore==1.0.7
+ + [2025-02-08 11:11:46.463360] httpx==0.28.1
+ + httpx-sse==0.4.0
+ + idna==3.10
+ + jinja2==3.1.5
+ + jsonpatch==1.33
+ +[2025-02-08 11:11:46.463756]  jsonpointer==3.0.0
+ + jsonschema==4.23.0
+ + jsonschema-specifications==2024.10.1
+ + langchain==0.3.18
+ + langchain-community[2025-02-08 11:11:46.463984] ==0.3.17
+ + langchain-core==0.3.34
+ + langchain-ollama==0.2.3
+ + langchain-text-splitters==0.3.6
+ +[2025-02-08 11:11:46.464209]  langsmith==0.3.7
+ + markdown-it-py==3.0.0
+ + markupsafe==3.0.2
+ + marshmallow==3.26.1
+ [2025-02-08 11:11:46.464451] + mdurl==0.1.2
+ + multidict==6.1.0
+ + mypy-extensions==1.0.0
+ + narwhals==1.25.2[2025-02-08 11:11:46.464609] 
+ + numpy==2.2.2
+ + ollama==0.4.7
+ + orjson==3.10.15
+ + packaging==24.2
+ + pandas[2025-02-08 11:11:46.464770] ==2.2.3
+ + pdfminer-six==20231228
+ + pdfplumber==0.11.5
+ + pillow==11.1.0
+ + [2025-02-08 11:11:46.464937] propcache==0.2.1
+ + protobuf==5.29.3
+ + pyarrow==19.0.0
+ + pycparser==2.22
+ + pydantic==2.10.6
+ + pydantic-core==2.27.2
+ [2025-02-08 11:11:46.465247] + pydantic-settings==2.7.1
+ + pydeck==0.9.1
+ + pygments==2.19.1
+ + pypdfium2==4.30.1
+ + python-dateutil==2.9.0.post0[2025-02-08 11:11:46.465394] 
+ + python-dotenv==1.0.1
+ + pytz==2025.1
+ + pyyaml==6.0.2
+ + referencing==0.36.2
+ + [2025-02-08 11:11:46.465602] requests==2.32.3
+ + requests-toolbelt==1.0.0
+ + rich==13.9.4
+ + rpds-py==0.22.3
+ + six==1.17.0[2025-02-08 11:11:46.465765] 
+ + smmap==5.0.2
+ + sniffio==1.3.1
+ + sqlalchemy==2.0.38
+ + streamlit==1.42.0
+ +[2025-02-08 11:11:46.465933]  tenacity==9.0.0
+ + toml==0.10.2
+ + tornado==6.4.2
+ + typing-extensions==4.12.2
+ + typing-inspect[2025-02-08 11:11:46.466099] ==0.9.0
+ + tzdata==2025.1
+ + urllib3==2.3.0
+ + watchdog==6.0.0
+ + [2025-02-08 11:11:46.466265] yarl==1.18.3
+ + zstandard==0.23.0
+Checking if Streamlit is installed
+Found Streamlit version 1.42.0 in the environment
+Installing rich for an improved exception logging
+Using uv pip install.
+Using Python 3.12.8 environment at /home/adminuser/venv
+Audited 1 package in 4ms
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+[11:11:48] 🐍 Python dependencies were installed from /mount/src/gen-ai/requirements.txt using uv.
+Check if streamlit is installed
+Streamlit is already installed
+[11:11:49] 📦 Processed dependencies!
+
+
+
+────────────────────── Traceback (most recent call last) ───────────────────────
+  /home/adminuser/venv/lib/python3.12/site-packages/streamlit/runtime/scriptru  
+  nner/exec_code.py:121 in exec_func_with_error_handling                        
+                                                                                
+  /home/adminuser/venv/lib/python3.12/site-packages/streamlit/runtime/scriptru  
+  nner/script_runner.py:591 in code_to_exec                                     
+                                                                                
+  /mount/src/gen-ai/rag_deep.py:2 in <module>                                   
+                                                                                
+      1 import streamlit as st                                                  
+  ❱   2 import boto3                                                            
+      3 import os                                                               
+      4 from langchain_community.document_loaders import PDFPlumberLoader       
+      5 from langchain_text_splitters import RecursiveCharacterTextSplitter     
+────────────────────────────────────────────────────────────────────────────────
+ModuleNotFoundError: No module named 'boto3'
